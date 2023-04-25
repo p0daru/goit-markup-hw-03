@@ -4,189 +4,228 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+  <body>
+    <!-- header -->
 
-  <body class="body">
-    <!-- Header -->
-    <header class="main-header">
-      <div class="container page-header-container">
-      <nav class="main-nav">
-        <a class="link-logo link" href="./index.html">Web<span class="header-logo">Studio</span></a>
-        <ul class="menu list">
-          <li class="list-item nav-item"><a class="menu link" href="./index.html">Studio</a></li>
-          <li class="list-item nav-item"><a class="menu link" href="./portfolio.html">Portfolio</a></li>
-          <li class="list-item nav-item"><a class="menu link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list link">
-          <li class="list-email-link">
-            <a class="address-link link email-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="list-phone-link">
-            <a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html"
+            >Web <span class="logo-name-two-part">Studio</span>
+          </a>
+          <ul class="list menu">
+            <li><a class="link menu-item" href="./index.html">Studio</a></li>
+            <li>
+              <a class="link menu-item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="link menu-item" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list address-menu">
+            <li>
+              <a class="link address-menu-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link address-menu-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
+
+    <!-- main content -->
     <main>
-      <!-- Filters -->
-      <section class="filters-section">
-        <div class=" container container-portfolio">
-        <h1 hidden>Portfolio</h1>
-        <ul class="list portfolio-list-button">
-          <li class="list-button"><button class="portfolio-button" type="button">All</button></li>
-          <li class="list-button"><button class="portfolio-button" type="button">Web Site</button></li>
-          <li class="list-button"><button class="portfolio-button" type="button">App</button></li>
-          <li class="list-button"><button class="portfolio-button" type="button">Design</button></li>
-          <li class="list-button"><button class="portfolio-button" type="button">Marketing</button></li>
-        </ul>
-        
-        <!-- Portfolio -->
-        
-        <ul class="list portfolio-list-item">
-          <li class="list-item portfolio-item portfolio-calc">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/banking-app-interface-concept.jpg"
-              alt="Seven mobile app windows"
-              width="360"
-              height="300"
-            />
-            <div class="banking portfolio-galery">
-            <h2 class="list-title">Banking App Interface Concept</h2>
-            <p class="list-lead">App</p>
-          </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
+      <!-- what we can to do -->
+
+      <section class="only-one section" >
+        <div class="container">
+          <h1 class="subtitle-one" hidden>What we can to do</h1>
+          <ul class="list menu-button">
+            <li><button class="menu-button-item" type="button">All</button></li>
+            <li>
+              <button class="menu-button-item" type="button">Web Site</button>
+            </li>
+            <li><button class="menu-button-item" type="button">App</button></li>
+            <li>
+              <button class="menu-button-item" type="button">Design</button>
+            </li>
+            <li>
+              <button class="menu-button-item" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!-- list one  -->
+          <ul class="list card-set-menu portfolio-menu">
+            <li class="card-set-item portfolio-item">
+              <a class="link portfolio-link" href="./portfolio.html"
+                ><img
+                  src="./images/list-one/banking-app.jpg"
+                  alt="banking-app"
+                  width="360"
+                  height="300"
+                />
+             
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Banking App Interface Concept</h2>
+                <p class="description">App</p>
+              </div>
+            </a>
+            </li>
+            <li class="card-set-item portfolio-item">
+              <a class="link portfolio-link" href="./portfolio.html"
+                ><img
+                  src="./images/list-one/cashless-payment.jpg"
+                  alt="mobil phone and terminal"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Cashless Payment</h2>
+                <p class="description">Marketing</p>
+              </div>
+            </a>
+            </li>
+            <li class="card-set-item portfolio-item">
+              <a class="link portfolio-link" href="./portfolio.html"
+                ><img
+                  src="./images/list-one/meditation-app.jpg"
+                  alt="computer and phone"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Meditation App</h2>
+                <p class="description">App</p>
+              </div>
+            </a>
+            </li>
+            <!-- list two -->
+            <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-two/taxi-service.jpg"
+                  alt="taxi"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Taxi Service</h2>
+                <p class="description">Marketing</p>
+              </div>
+            </a>
+            </li>
+            <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-two/screen-illustrations.jpg"
+                  alt="mobil phone"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Screen Illustrations</h2>
+                <p class="description">Design</p>
+              </div>
+            </a>
+            </li>
+            <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-two/online-courses.jpg"
+                  alt="woman with phonewidtn "
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Online Courses</h2>
+                <p class="description">Marketing</p>
+              </div>
+            </a>
+            </li>
+            <!-- list three -->
+           <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-three/instagram-stories-concept.jpg"
+                  alt="insta stories"
+                  width="360"
+                  height="300"
+                />
             
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/cashless-payment.jpg"
-              alt="Reading a QR code by phone for payment through the terminal"
-              width="360"
-              height="300"
-            />
-            <div class="marketing portfolio-galery">
-            <h2 class="list-title">Cashless Payment</h2>
-            <p class="list-lead">Marketing</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/meditation-app.jpg"
-              alt="Laptop and phone next to it"
-              width="360"
-              height="300"
-            />
-            <div class="meditation portfolio-galery">
-            <h2 class="list-title">Meditation App</h2>
-            <p class="list-lead">App</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/taxi-service.jpg"
-              alt="Hands in black gloves hold the steering wheel of a car"
-              width="360"
-              height="300"
-            />
-            <div class="taxi portfolio-galery">
-            <h2 class="list-title">Taxi Service</h2>
-            <p class="list-lead">Marketing</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/screen-illustrations.jpg"
-              alt="Full moon wallpaper"
-              width="360"
-              height="300"
-            />
-            <div class="design portfolio-galery">
-            <h2 class="list-title">Screen Illustrations</h2>
-            <p class="list-lead">Design</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/online-courses.jpg"
-              alt="Girl in headphones looks at the phone and smiles"
-              width="360"
-              height="300"
-            />
-            <div class="courses portfolio-galery">
-            <h2 class="list-title">Online Courses</h2>
-            <p class="list-lead">Marketing</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/instagram-stories-concept.jpg"
-              alt="Six slides with examples for story design"
-              width="360"
-              height="300"
-            />
-            <div class="instagram portfolio-galery">
-            <h2 class="list-title">Instagram Stories Concept</h2>
-            <p class="list-lead">Design</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img 
-              src="./images/portfolio/organic-food.jpg"
-              alt="The girl carries a bag with groceries"
-              width="360"
-              height="300"
-            />
-            <div class="organic portfolio-galery">
-            <h2 class="list-title">Organic Food</h2>
-            <p class="list-lead">Web Site</p>
-            </div>
-          </a>
-          </li>
-          <li class="list-item portfolio-item">
-            <a class="list-link link" href="">
-            <img src="./images/portfolio/fresh-coffee.jpg"
-              alt="Cup with coffee in hand"
-              width="360"
-              height="300"
-            />
-            <div class="coffe portfolio-galery">
-            <h2 class="list-title">Fresh Coffee</h2>
-            <p class="list-lead">Web Site</p>
-            </div>
-          </a>
-          </li>
-        </ul>
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Instagram Stories Concept</h2>
+                <p class="description">Design</p>
+              </div>
+            </a>
+            </li>
+            <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-three/organic-food.jpg"
+                  alt="woman with food"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Organic Food</h2>
+                <p class="description">Web Site</p>
+              </div>
+            </a>
+            </li>
+
+            <li class="card-set-item portfolio-item">
+              <a class="link" href="./portfolio.html"
+                ><img
+                  src="./images/list-three/fresh-coffee.jpg"
+                  alt=" cup of cofee"
+                  width="360"
+                  height="300"
+                />
+              
+              <div class=" portfolio-cards">
+                <h2 class="subtitle-two">Fresh Coffee</h2>
+                <p class="description">Web Site</p>
+              </div>
+            </a>
+                        </li>
+          </ul>
         </div>
       </section>
     </main>
-   <footer class="footer">
-    <div class="container">
-      <a class="link-logo-footer link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
-      <p class="text-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <a class="link logo logo-footer" href="./index.html"
+          >Web <span class="logo-name-two-part-down">Studio</span>
+        </a>
+        <p class="description description-footer">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
       </div>
     </footer>
   </body>
